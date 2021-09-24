@@ -1,0 +1,49 @@
+.search{
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 7%;
+}
+.categories{
+	margin-top: 20px;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+}
+.img-rep{
+	width: 100%;
+}
+.text-in-img{
+	bottom: 10px;
+    left: 80px;
+    color: white;
+}
+.food-pice{
+	font-size: 1.3rem;
+	margin: 1% 0;
+}
+.food-de{
+	font-size: 0.9rem;
+	color: darkseagreen;
+}
+.box-food-menu{
+	margin: 2% 0;
+	border-radius: 10px;
+	background-color: white;
+	border: 1px solid red;
+}
+.foodmenu{
+	background-color: rgb(202, 199, 199);
+}
+.w-75px{
+	width: 109px;
+}
+.bd{
+	border: 1px solid white;
+}
+.text-bd{
+	margin-top: -14px;
+	font-weight: 500; 
+	background-color: #47b4d1;
+	padding: 0;
+}

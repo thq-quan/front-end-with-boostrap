@@ -1,0 +1,160 @@
+
+*{
+	margin: 0 0;
+	padding: 0 0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	padding: 1%;
+}
+.logo{
+	width: 15%;
+	float: left	;
+}
+.img-rep{
+	width: 100%;
+}
+.img-cuver{
+	border-radius: 10px;
+}
+.text-right{
+	text-align: right;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	display: inline;
+	padding: 1%;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+.menu{
+	line-height: 60px;
+}
+.menu ul li a:hover{
+	color: #000;
+}
+
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+.text-center{
+	text-align: center;
+}
+.food-search{
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 7%;
+}
+.food-search input[type="search"]{
+	width: 50%;
+	padding: 1%;
+	font-size: 1rem;
+	border: none;
+	border-radius: 7px;
+}
+.btn{
+	padding: 1%;
+	border: none;
+	font-size: 1rem;
+	border-radius: 7px;
+	background-color: rgb(192, 194, 86);
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: red;
+}
+.categories{
+	padding:4% 0;
+}
+.box-4{
+	width: 22.5%;
+	float: left;
+	margin: 1%;
+}
+.float-container{
+	position: relative;
+}
+.float-text{
+	position: absolute;
+	bottom: 50px;
+	left: 40%;
+	color: white;
+}
+.font-size-name{
+	font-size: 1.5rem;
+}
+.food-menu{
+	background-color: burlywood;
+	padding: 4%;
+}
+.food-menu-box{
+	width: 43%;
+	float: left;
+	padding: 2%;
+	margin: 1%;
+	background-color: white;
+	border-radius: 7px;
+}
+.box-food-img{
+	width: 20%;
+	float: left;
+}
+.box-food-title{
+	width: 70%;
+	float: left;
+	margin-left: 5%;
+}
+.food-pice{
+	font-size: 1.2rem;
+	margin: 1% 0;
+}
+.food-de{
+	font-size: 0.9rem;
+	color: darkseagreen;
+}
+.social ul{
+	list-style-type: none;
+}
+.social ul li{
+	display: inline;
+	padding: 5%;
+}
+
+@media only screen and (max-width:768px) {
+	.logo{
+		width: 80%;
+		float: none;
+		margin: 1%;
+	}
+	.menu{
+		text-align: center;
+	}
+	.box-4{
+		width: 90%;
+	}
+	.food-menu{
+		padding: 20% 0;
+	}
+	.food-menu-box{
+		width: 90%;
+		padding: 5%;
+		margin-bottom: 3%;
+	}
+	.soical{
+		margin-bottom: 10%;
+	}
+	
+}
