@@ -14,8 +14,8 @@
 	width: 100%;
 }
 .text-in-img{
-	bottom: 10px;
-    left: 80px;
+	bottom: 30px;
+    left: 135px;
     color: white;
 }
 .food-pice{
@@ -46,4 +46,10 @@
 	font-weight: 500; 
 	background-color: #47b4d1;
 	padding: 0;
+}
+.br-1{
+	border-radius: 10px;
+}
+.dashboard{
+	background-color: #f1f1f1;
 }
